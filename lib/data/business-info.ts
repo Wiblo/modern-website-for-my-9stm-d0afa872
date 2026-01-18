@@ -1,53 +1,53 @@
 export const businessInfo = {
   // Core business details
-  name: "Practice Name Chiropractic",
-  tagline: "Quality chiropractic care in Your City",
+  name: "Nashville Physiotherapy",
+  tagline: "Expert physical therapy care in Nashville",
   logo: "/logo.png",
 
   // Contact information
-  phone: "(555) 123-4567",
-  phoneSecondary: "(555) 987-6543", // Optional second phone number
-  email: "contact@example.com",
+  phone: "(615) 555-0100",
+  phoneSecondary: "(615) 555-0101", // Optional second phone number
+  email: "info@nashvillephysio.com",
 
   // Location
   address: {
-    street: "123 Main Street",
-    area: "", // Optional (e.g., "Building Name" or "Suite 100")
-    city: "Springfield",
-    state: "CA",
-    zip: "12345",
+    street: "2100 West End Avenue",
+    area: "Suite 200", // Optional (e.g., "Building Name" or "Suite 100")
+    city: "Nashville",
+    state: "TN",
+    zip: "37203",
     country: "US",
   },
 
   // Optional: Coordinates for map and LocalBusiness schema
   geo: {
-    latitude: 40.7128,
-    longitude: -74.0060,
+    latitude: 36.1627,
+    longitude: -86.7816,
   },
 
   // Business hours
   hours: {
-    monday: "9:00am - 6:00pm",
-    tuesday: "9:00am - 6:00pm",
-    wednesday: "9:00am - 6:00pm",
-    thursday: "9:00am - 6:00pm",
-    friday: "9:00am - 5:00pm",
-    saturday: "10:00am - 2:00pm",
+    monday: "7:00am - 6:00pm",
+    tuesday: "7:00am - 6:00pm",
+    wednesday: "7:00am - 6:00pm",
+    thursday: "7:00am - 6:00pm",
+    friday: "7:00am - 5:00pm",
+    saturday: "8:00am - 12:00pm",
     sunday: "Closed",
   },
 
   // Social media profiles
   social: {
-    facebook: "https://facebook.com/yourpage",
-    instagram: "https://instagram.com/yourpage",
-    whatsapp: "https://wa.me/1234567890", // WhatsApp link with number
-    // twitter: "https://twitter.com/yourpage",
-    // linkedin: "https://linkedin.com/company/yourpage",
+    facebook: "https://facebook.com/nashvillephysio",
+    instagram: "https://instagram.com/nashvillephysio",
+    whatsapp: "https://wa.me/16155550100", // WhatsApp link with number
+    // twitter: "https://twitter.com/nashvillephysio",
+    // linkedin: "https://linkedin.com/company/nashvillephysio",
   },
 
   // Site metadata
-  url: "https://example.com",
-  description: "Dedicated to helping people achieve a pain-free life through non-invasive healthcare.",
+  url: "https://nashvillephysio.com",
+  description: "Professional physiotherapy and physical rehabilitation services in Nashville, TN. Expert care for sports injuries, chronic pain, and post-surgical recovery.",
   priceRange: "$$", // $, $$, $$$, or $$$$
 
   // Schema.org types for JSON-LD structured data
@@ -60,13 +60,13 @@ export const businessInfo = {
   schemaTypes: ['LocalBusiness', 'MedicalBusiness', 'HealthAndBeautyBusiness'] as const,
 
   // Booking/appointment URL
-  bookingUrl: "https://sticksandstoneswellnesshub.pencilmein.online/Booking",
+  bookingUrl: "https://nashvillephysio.com/book",
 
   // Google Maps configuration
   maps: {
     apiKey: "AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8",
     // Location name for Google Maps searches
-    locationName: "Sticks and Stones Wellness Hub",
+    locationName: "Nashville Physiotherapy",
   },
 }
 

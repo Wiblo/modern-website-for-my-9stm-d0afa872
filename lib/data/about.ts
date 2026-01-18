@@ -19,9 +19,9 @@ export interface AboutFull {
 export const aboutPreview: AboutPreview = {
   title: 'About Our Practice',
   description:
-    "Dr. Kamilah Jordaan is a dedicated chiropractor committed to helping people achieve a pain-free life through non-invasive healthcare. With a Master's degree in Chiropractic from the University of Johannesburg earned with distinction, she provides holistic, patient-centered care to individuals of all ages.",
+    'Nashville Physiotherapy provides evidence-based physical therapy and rehabilitation services to help you recover from injury, manage pain, and optimize performance. Our experienced therapists combine manual therapy, therapeutic exercise, and advanced techniques to get you back to doing what you love.',
   image: '/dr-kamilah-professional-portrait.jpeg',
-  imageAlt: 'Dr. Kamilah Jordaan professional portrait',
+  imageAlt: 'Physical therapist working with patient',
 }
 
 /**
@@ -29,12 +29,12 @@ export const aboutPreview: AboutPreview = {
  * Comprehensive information about the practice
  */
 export const aboutFull: AboutFull = {
-  title: 'About Dr. Kamilah Jordaan',
+  title: 'About Nashville Physiotherapy',
   paragraphs: [
-    "Dr. Kamilah Jordaan is a dedicated chiropractor committed to helping people achieve a pain-free life through non-invasive healthcare. With a Master's degree in Chiropractic from the University of Johannesburg earned with distinction, she provides holistic, patient-centered care to individuals of all ages.",
-    'Specializing in sports and family chiropractic care, Dr. Jordaan combines advanced techniques with a compassionate approach to address a wide range of conditions, from sports injuries to chronic pain management.',
-    'At Sticks and Stones Wellness Hub, every patient receives personalized attention and a customized treatment plan designed to support their unique healing journey and long-term wellness goals.',
+    'Nashville Physiotherapy is dedicated to providing exceptional physical therapy services to the Nashville community. Our licensed physical therapists bring years of experience in sports rehabilitation, orthopedic recovery, and chronic pain management.',
+    'We specialize in evidence-based treatment approaches that address the root cause of your condition, not just the symptoms. Whether recovering from surgery, managing a sports injury, or seeking to improve mobility and function, our team creates personalized treatment plans tailored to your specific goals.',
+    'At Nashville Physiotherapy, we combine hands-on manual therapy with therapeutic exercise, patient education, and advanced modalities to accelerate healing and prevent future injuries. Our goal is to empower you with the tools and knowledge needed for long-term health and optimal performance.',
   ],
   image: '/dr-kamilah-professional-portrait.jpeg',
-  imageAlt: 'Dr. Kamilah Jordaan professional portrait',
+  imageAlt: 'Nashville Physiotherapy clinic',
 }

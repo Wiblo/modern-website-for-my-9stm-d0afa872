@@ -13,49 +13,49 @@ export const faqs: FaqItem[] = [
     id: 'first-visit',
     question: 'What should I expect on my first visit?',
     answer:
-      "Your initial consultation includes a thorough history taking and physical examination to determine if chiropractic care is suitable for you. We'll discuss your health goals and create a personalized treatment plan. The first visit typically lasts 45 minutes to ensure we understand your needs completely. Follow-up appointments are 30 minutes.",
+      "Your initial evaluation includes a comprehensive assessment of your injury or condition, movement analysis, strength testing, and range of motion evaluation. We'll discuss your symptoms, medical history, and recovery goals, then develop a personalized treatment plan. The first visit typically lasts 60 minutes. Follow-up treatment sessions are 45 minutes.",
   },
   {
-    id: 'medical-aid',
-    question: 'Do you accept medical aid?',
+    id: 'insurance',
+    question: 'Do you accept insurance?',
     answer:
-      'Yes, we process medical aid claims on your behalf. We work with most major medical aids in South Africa. You settle your bill after your session and then we will submit the claim to your medical aid.',
+      'Yes, we accept most major insurance plans including Blue Cross Blue Shield, Cigna, Aetna, and United Healthcare. We recommend verifying your physical therapy benefits before your first visit. Our staff can help you understand your coverage and handle all insurance paperwork.',
   },
   {
     id: 'painful',
-    question: 'Is chiropractic treatment painful?',
+    question: 'Will physical therapy hurt?',
     answer:
-      "Chiropractic adjustments are generally not painful. You may feel slight pressure or hear a popping sound, but the treatment is designed to relieve pain, not cause it. We adapt techniques to each patient's comfort level and always communicate throughout the treatment to ensure you're comfortable.",
+      "Physical therapy should not be painful. While you may experience some discomfort during certain exercises or manual therapy techniques, especially in the initial stages of recovery, treatment is designed to reduce pain, not increase it. We always work within your comfort level and adjust techniques as needed.",
   },
   {
     id: 'sessions',
     question: 'How many sessions will I need?',
     answer:
-      "The number of sessions varies depending on your condition, its severity, and your health goals. After your initial assessment, we'll provide a treatment plan with an estimated timeline. Most patients see improvement within 2-4 sessions, though chronic conditions may require ongoing care.",
+      "The number of sessions depends on your condition, severity, and individual progress. Most acute injuries improve within 4-8 weeks, while chronic conditions may require longer treatment. After your evaluation, we'll provide a treatment plan with expected timeline and modify it based on your response to therapy.",
   },
   {
-    id: 'pregnancy',
-    question: 'Is chiropractic care safe during pregnancy?',
+    id: 'referral',
+    question: 'Do I need a doctor referral?',
     answer:
-      'Yes, chiropractic care is safe and beneficial during pregnancy. We use specialized techniques designed for pregnant women to help manage pain and ensure proper pelvic alignment for easier delivery. Many women find relief from pregnancy-related back pain through gentle chiropractic care.',
+      'Tennessee allows direct access to physical therapy, which means you can see us without a physician referral. However, some insurance plans may require a referral for coverage. Contact your insurance provider or call our office to verify your specific requirements.',
   },
   {
-    id: 'children',
-    question: 'Can children receive chiropractic treatment?',
+    id: 'sports-injuries',
+    question: 'Do you treat sports injuries?',
     answer:
-      'Absolutely! Children can benefit greatly from chiropractic care. We use gentle, age-appropriate techniques to address issues like colic, growing pains, sports injuries, and posture problems. Pediatric chiropractic care supports healthy development and can prevent future problems.',
+      'Yes! We specialize in sports rehabilitation for athletes of all levels. Our sports-specific programs address common injuries like ACL/MCL tears, rotator cuff injuries, tendinitis, sprains, and strains. We provide return-to-sport protocols and performance training to get you back in the game safely.',
   },
   {
     id: 'appointment',
     question: 'How do I book an appointment?',
     answer:
-      'You can book an appointment through our online booking system at Sticks and Stones Wellness Hub, call us at 082 940 7129, or email kamilahjordaan@gmail.com. We offer flexible scheduling with appointments available 6 days a week to accommodate your busy lifestyle.',
+      'You can book online through our website, call us at (615) 555-0100, or email info@nashvillephysio.com. We offer flexible scheduling with early morning and evening appointments available Monday through Friday, plus Saturday morning hours.',
   },
   {
     id: 'what-to-wear',
     question: 'What should I wear to my appointment?',
     answer:
-      'Wear comfortable, loose-fitting clothing that allows for movement. Avoid wearing dresses or skirts if possible, as you may need to perform certain movements during the examination.',
+      'Wear comfortable athletic clothing that allows us to see and assess the affected area. Shorts and a t-shirt are ideal. For shoulder or upper body injuries, wear a tank top or sleeveless shirt. Athletic shoes are recommended for exercise portions of treatment.',
   },
 ]
 

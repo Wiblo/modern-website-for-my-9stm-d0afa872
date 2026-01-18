@@ -1,4 +1,4 @@
-import { Activity, Zap } from 'lucide-react'
+import { Activity, Zap, Heart, Dumbbell } from 'lucide-react'
 import type { LucideIcon } from 'lucide-react'
 
 export interface Service {
@@ -25,64 +25,126 @@ export interface Service {
  */
 export const services: Service[] = [
   {
-    id: 'initial-consultation',
+    id: 'initial-evaluation',
     slug: 'initial-consultation',
-    name: 'Initial Consultation',
+    name: 'Initial Evaluation',
     description:
-      'Comprehensive first visit including thorough history taking, physical examination, and personalised treatment plan development to address your specific health concerns.',
+      'Comprehensive physical therapy assessment including detailed movement analysis, strength testing, and personalized treatment plan development tailored to your recovery goals.',
     duration: '60 min',
-    price: 'R850',
+    price: '$150',
     image: '/arm-mobility-assessment.jpeg',
-    imageAlt: 'Professional arm mobility assessment during consultation',
+    imageAlt: 'Professional mobility assessment during physiotherapy evaluation',
     icon: Activity,
     benefits: [
-      'Complete health assessment',
+      'Complete movement assessment',
       'Diagnosis and explanation',
-      'Personalised treatment plan',
-      'First adjustment if suitable',
+      'Personalized treatment plan',
+      'Pain management strategies',
     ],
     featured: true,
     shortDescription:
-      'Your journey to optimal health begins with a comprehensive assessment',
+      'Your recovery journey begins with a thorough physical therapy evaluation',
     fullDescription:
-      'During your initial consultation, Dr. Jordaan conducts a thorough evaluation of your health history, current concerns, and wellness goals. This includes a detailed physical examination, postural analysis, and functional movement assessment.\n\nUsing evidence-based diagnostic techniques, we identify the root cause of your discomfort and develop a personalized treatment plan tailored to your unique needs. If appropriate, your first chiropractic adjustment may be performed during this visit.',
+      'During your initial evaluation, our licensed physical therapist conducts a comprehensive assessment of your condition, movement patterns, strength, flexibility, and functional abilities. This includes a detailed review of your medical history, injury mechanism, and recovery goals.\n\nUsing evidence-based diagnostic techniques and movement analysis, we identify the root cause of your dysfunction and develop a personalized treatment plan. Your first session may include manual therapy, therapeutic exercises, and education on your condition.',
     idealFor: [
       'New patients',
-      'Chronic pain',
       'Sports injuries',
-      'Postural issues',
-      'Preventative care',
-      'Wellness optimization',
+      'Post-surgical recovery',
+      'Chronic pain',
+      'Movement dysfunction',
+      'Injury prevention',
     ],
   },
   {
-    id: 'follow-up',
+    id: 'follow-up-treatment',
     slug: 'follow-up-consultation',
-    name: 'Follow-Up Consultation',
+    name: 'Physical Therapy Session',
     description:
-      'Continued care appointments to monitor progress, adjust treatment plans, and provide therapeutic interventions tailored to your healing journey.',
-    duration: '30 min',
-    price: 'R650',
+      'Focused treatment sessions including manual therapy, therapeutic exercises, and modalities to accelerate healing and restore optimal function.',
+    duration: '45 min',
+    price: '$120',
     image: '/spinal-adjustment-treatment.jpeg',
-    imageAlt: 'Professional spinal adjustment treatment session',
+    imageAlt: 'Physical therapy treatment session',
     icon: Zap,
     benefits: [
-      'Progress evaluation',
-      'Treatment adjustments',
-      'Therapeutic interventions',
-      'Home care advice',
+      'Progress tracking',
+      'Manual therapy techniques',
+      'Therapeutic exercises',
+      'Home exercise program updates',
     ],
     featured: true,
     shortDescription:
-      'Ongoing care to maintain progress and achieve your health goals',
+      'Hands-on treatment to restore movement and reduce pain',
     fullDescription:
-      'Follow-up consultations are essential for monitoring your progress and ensuring optimal results. Each session includes a reassessment of your condition, targeted chiropractic adjustments, and complementary therapies as needed.\n\nDr. Jordaan adjusts your treatment plan based on your response to care, ensuring you continue progressing toward your health goals. These appointments also include guidance on exercises, lifestyle modifications, and self-care strategies to support your healing between visits.',
+      'Follow-up treatment sessions focus on implementing your personalized therapy plan. Each session includes manual therapy techniques such as joint mobilization, soft tissue work, and neuromuscular re-education.\n\nOur therapist will guide you through targeted therapeutic exercises, modify your treatment plan based on progress, and provide updated home exercise programs. We utilize evidence-based modalities when appropriate to accelerate healing and manage pain.',
     idealFor: [
-      'Ongoing treatment',
-      'Maintenance care',
-      'Recovery monitoring',
+      'Active treatment phase',
+      'Recovery progression',
+      'Strength building',
       'Pain management',
+      'Return to sport/activity',
+    ],
+  },
+  {
+    id: 'sports-rehab',
+    slug: 'sports-rehabilitation',
+    name: 'Sports Rehabilitation',
+    description:
+      'Specialized sports-specific physical therapy for athletes recovering from injuries or looking to enhance performance and prevent future injuries.',
+    duration: '45 min',
+    price: '$130',
+    image: '/arm-mobility-assessment.jpeg',
+    imageAlt: 'Sports rehabilitation therapy session',
+    icon: Dumbbell,
+    benefits: [
+      'Sport-specific training',
       'Performance optimization',
+      'Injury prevention strategies',
+      'Return-to-sport protocols',
+    ],
+    featured: true,
+    shortDescription:
+      'Get back in the game with specialized sports rehabilitation',
+    fullDescription:
+      'Our sports rehabilitation program is designed specifically for athletes of all levels. We focus on not just recovering from injury, but optimizing movement patterns, building resilience, and enhancing athletic performance.\n\nTreatment includes advanced manual therapy, sport-specific functional training, biomechanical analysis, and progressive return-to-sport protocols. We work closely with coaches and trainers to ensure safe and effective return to competition.',
+    idealFor: [
+      'Athletes',
+      'Sports injuries',
+      'ACL/MCL recovery',
+      'Rotator cuff injuries',
+      'Running injuries',
+      'Performance enhancement',
+    ],
+  },
+  {
+    id: 'dry-needling',
+    slug: 'dry-needling',
+    name: 'Dry Needling Therapy',
+    description:
+      'Advanced technique using thin needles to release muscle tension, reduce pain, and improve tissue healing for chronic pain and muscle dysfunction.',
+    duration: '30 min',
+    price: '$80',
+    image: '/spinal-adjustment-treatment.jpeg',
+    imageAlt: 'Dry needling treatment',
+    icon: Heart,
+    benefits: [
+      'Rapid pain relief',
+      'Muscle tension release',
+      'Improved range of motion',
+      'Enhanced tissue healing',
+    ],
+    featured: false,
+    shortDescription:
+      'Targeted pain relief through advanced dry needling techniques',
+    fullDescription:
+      'Dry needling is an effective treatment for releasing trigger points, reducing muscle tension, and accelerating healing. Our therapists use thin filament needles to target specific muscle bands and trigger points that contribute to pain and dysfunction.\n\nThis technique can provide rapid relief from acute and chronic pain conditions, improve range of motion, and enhance the effectiveness of your overall treatment plan. Often combined with other manual therapy techniques for optimal results.',
+    idealFor: [
+      'Chronic pain',
+      'Muscle tension',
+      'Trigger points',
+      'Headaches/migraines',
+      'Tendinitis',
+      'Muscle strains',
     ],
   },
 ]

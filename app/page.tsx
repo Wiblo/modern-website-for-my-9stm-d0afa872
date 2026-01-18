@@ -11,11 +11,11 @@ export default function Home() {
   return (
     <>
       <HeroWithImage
-        subtitle="Dr. Kamilah Jordaan"
-        title="Sports & Family Chiropractic Care"
+        subtitle="Expert Physical Therapy"
+        title="Restore Movement. Reduce Pain. Return Stronger."
         backgroundImage="/dr-kamilah-professional-portrait.jpeg"
-        backgroundImageAlt="Dr. Kamilah Jordaan - Professional Chiropractor"
-        ctaText="Book Your Appointment"
+        backgroundImageAlt="Professional physiotherapy treatment session"
+        ctaText="Book Your Evaluation"
         ctaUrl={businessInfo.bookingUrl}
       />
       <FeaturedServices />
